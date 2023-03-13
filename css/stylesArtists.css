@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    /* color: */
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    max-width: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.container .music {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #111;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    overflow: hidden;
+}
+
+.container .music:hover {
+    box-shadow: 0 12px 16px #0f0f0f;
+    transform: translateY(-15px);
+}
+
+.container .music img {
+    width: 200px;
+    height: 120px;
+}
+
+.container .music h4 {
+    font-weight: 600;
+}
+
+.container .music p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}

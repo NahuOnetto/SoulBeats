@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 330px;
+    background-image: url(/img/Background.jpg);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    padding-right: 10px;
+}
+
+nav a:hover {
+    text-shadow: 5px 0 5px rgb(0, 0, 0);
+}
+
+/* @media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+} */
+
+footer {
+    display: block;
+    text-decoration: none;
+}
