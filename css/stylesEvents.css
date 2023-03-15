@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quantico&display=swap');
+
 header {
     display: flex;
     justify-content: space-between;
@@ -10,6 +13,7 @@ header {
 
 main {
     padding: 50px;
+    background-color: #111;
 }
 
 .event_list {
@@ -74,9 +78,6 @@ nav a:hover {
     color: #ccc;
 }
 
-
-
-
 body {
     align-items: center;
     justify-content: center;
@@ -84,6 +85,11 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
 }
 
 .event {
@@ -97,10 +103,11 @@ body {
 }
 
 .img_card {
-    width: 125px;
-    /* height: 700px; */
+    width: 200px;
     display: block;
     object-fit: cover;
+    border-right: solid 3px;
+    border-color: #111;
 }
 
 .event_card {
@@ -108,6 +115,8 @@ body {
     width: 600px;
     border-radius: 25px;
     overflow: hidden;
+    border: solid 3px;
+    border-color: #fff;
     box-shadow: 0 16px 20px #4cbdda;
     transform: translateY(-15px);
 }
@@ -115,10 +124,13 @@ body {
 .card_secc {
     padding: 20px;
     display: flex;
+    background-color: #fff;
 }
 
 .card_title {
     font-size: 20px;
+    font-family: 'Audiowide', cursive;
+    
 }
 
 .card_info {
@@ -131,4 +143,57 @@ body {
 
 .card_info p {
     width: 200px;
+    max-height: auto;
+    display: flex;
+    letter-spacing: 1.5px;
+    color: #111;
+    font-family: 'Quantico', sans-serif;
+}
+
+.card_days {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.card_size-btn {
+    padding: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 25px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+    border-color: 0.3s;
+}
+
+.card_size-btn:hover {
+    color: #00b4d1;
+    border-color: #00b4d1;
+}
+
+.card_buy_f {
+    padding-top: 15px;
+}
+
+.card_buy {
+    padding: 7px 15px;
+    border: 3px solid #000;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    width: max-content;
+    transition: color 0.3s;
+    border-color: 0.3s;
+}
+
+.card_buy:hover {
+    color: #32943b;
+    border-color: #32943b;
 }
