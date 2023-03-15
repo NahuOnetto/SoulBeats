@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="/css/stylesIndex.css">
+    <script src="https://kit.fontawesome.com/6917ae6304.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="header">
-        <a href="/index.html" id="logo">
-            <img id="header_img" src="/img/Logo1.png" alt="Logo"/>
+    <header>
+        <a href="/index.html">
+            <img id="header_img" src="/img/Logo-2.png" alt="Logo"/>
         </a>
-        <nav id="nav">
-            <a href="/pages/artists.html">Artists</a>
-            <a href="/pages/events.html">Events</a>
-            <a href="/pages/news.html">News</a>
-            <a href="/pages/ranking.html">Top Artists</a>
-            <a href="/pages/register.html">Register/Login</a>
+        <nav>
+            <ul>
+                <li><a href="/pages/artists.html">Artists</a></li>
+                <li><a href="/pages/events.html">Events</a></li>
+                <li><a href="/pages/news.html">News</a></li>
+                <li><a href="/pages/ranking.html">Top Artists</a></li>
+                <li><a href="/pages/register.html">Register/Login</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -25,15 +28,46 @@
             <h1>About Us</h1>
         </section>
     </main>
-    <footer>
-        <img src="">
-            <ul class="social networks">
-                <li><a href="https://twitter.com/">Twitter</a></li>
-                <li><a href="https://www.facebook.com/">Facebook</a></li>
-                <li><a href="https://www.instagram.com/"></a>Instagram</li>
-            </ul>
-            <p>Copyright ©2023 All rights reserved</p>
-        <img src="img/Footer.jpg">
+    <footer class="pie-pag">
+        <div class="grup1">
+            <div class="box">
+                <figure>
+                    <a href="/index.html">
+                        <img src="/img/Logo-2.png" alt="Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <span>
+                <a href="/pages/artists.html">Artists</a>
+                </span>
+                <span>
+                <a href="/pages/events.html">Events</a>
+                </span>
+                <span>
+                <a href="/pages/news.html">News</a>
+                </span>
+                <span>
+                <a href="/pages/ranking.html">Top Artists</a>
+                </span>
+                <span>
+                <a href="/pages/register.html">Register/Login</a>
+                </span>
+
+            </div>
+            <div class="box">
+                <h2>Contacts</h2>
+                <div class="social">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grup2">
+            <small>&copy; 2023 <b>Soul Beats</b>-All Rights Reserved.</Soul></small>
+            <img src="/img/Footer.jpg">
+        </div>
     </footer>
 </body>
 </html>
