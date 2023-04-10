@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-image: url(/img/Public_Concert.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -118,4 +118,66 @@ body {
 .button-neon:hover {
     background: coral;
     box-shadow: 0 0 10px coral, 0 0 40px coral, 0 0 80px coral;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .logo img {
+        height: 60%;
+        margin-left: 0;
+    }
+
+    main {
+        margin-bottom: 0;
+    }
+    
+    header label i {
+        line-height: 80px;
+        color: #fff;
+        font-size: 35px;
+        margin-left: 120px;
+        cursor: pointer;
+        display: none;
+    }
+
+    header .menue {
+        height: 0;
+        width: 300px;
+        position: fixed;
+        top: 85px;
+        right: 0px;
+        background-color: rgb(36, 47, 55);
+        text-align: center;
+        cursor: pointer;
+        transition: all .5s;
+    }
+
+    header .menue li {
+        display: none;
+        margin: 35px 0;
+        transition: all .5s;
+    }
+
+    #check:checked ~ nav .menue {
+        height: 60vh;
+    }
+
+    #check:checked ~ nav .menue {
+        display: block;
+    }
+
+    .mbars {
+        display: none;
+    }
+
+    .form-register {
+        margin: auto;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .form-register p {
+        font-size: 18px;
+    }
 }
