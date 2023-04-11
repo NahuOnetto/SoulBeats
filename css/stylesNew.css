@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quantico&display=swap');
 
+body {
+    background-color: black;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -104,6 +108,10 @@ article a {
     color: #6200ff;
     text-shadow: 5px 5px 5px #c01ce9;
     font-family: 'Audiowide', cursive;
+}
+
+footer {
+    background-color: #fff;
 }
 
 

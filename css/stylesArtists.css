@@ -30,7 +30,7 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+
 }
 
 header ul li {
@@ -155,11 +155,11 @@ body {
 
     header .menue {
         height: 0;
-        width: 300px;
-        position: fixed;
+        width: -250px;
         top: 85px;
-        right: 0px;
-        background-color: rgb(36, 47, 55);
+        position: absolute;
+        background-color: rgb(33, 84, 117);
+        border: 2px solid #fff;
         text-align: center;
         cursor: pointer;
         transition: all .5s;
@@ -167,21 +167,15 @@ body {
     }
 
     header .menue li {
-        display: none;
-        margin: 35px 0;
+        margin: 50px 0;
         transition: all .5s;
     }
 
     #check:checked ~ nav .menue {
         height: 60vh;
-    }
-
-    #check:checked ~ nav .menue {
+        right: 18px;
+        width: 300px;
         display: block;
-    }
-
-    .mbars {
-        display: none;
     }
 
     .container {
