@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 20vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("/img/Background.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../img/Background.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -80,7 +80,7 @@ aside {
 
 .pie-pag {
     width: 100%;
-    background-image: url(/img/Background.jpg);
+    background-image: url("../img/Background.jpg");
 }
 
 .pie-pag .grup1 {
