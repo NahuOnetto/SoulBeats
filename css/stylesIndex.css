@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quantico&display=swap');
+
+body {
+    background-color: black;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -32,6 +38,7 @@ nav ul li {
     font-size: 10px;
     text-shadow: 0px 5px 7px #4cbdda;
     transition: color 0.3 ease;
+    font-family: 'Quantico', sans-serif;
 }
 
 nav ul {
@@ -54,10 +61,33 @@ nav a:hover {
     color: #ccc;
 }
 
+main section {
+    float: left;
+    background-color: black;
+}
+
+.first h2 {
+    padding: 0 1rem;
+    font-size:40px;
+    font-family: 'Quantico', sans-serif;
+    color: #fff;
+}
+
+.first p {
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Quantico', sans-serif;
+    color: #fff;
+}
+
 aside {
-    display: inline-block;
-    width: 300px;
-    min-height: 400px;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 30%;
+    height: 100px;
     background-color: darkgray;
 }
 
@@ -78,27 +108,86 @@ aside {
     }
 } */
 
-.pie-pag {
-    width: 100%;
-    background-image: url("../img/Background.jpg");
+
+
+
+.footer {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../img/Background.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.pie-pag .grup1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
+.footer .uss {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Quantico', sans-serif;
 }
 
-.pie-pag .grup1 .box figure {
-    width: 100%;
-    height: 100%;
+.footer .showi {
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500px;
+}
+
+.border_top {
+    border-top: #ddd solid 1px;
+} 
+
+ul.loca {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.pie-pag .grup1 .box figure img {
-    width: 250px;
+ul.loca li {
+    color: #fcfbfb;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-family: 'Quantico', sans-serif;
+    list-style: none;
+}
+
+ul.loca li a {
+    padding-right: 16px;
+    color: #fcfbfb;
+    margin-top: 4px;
+}
+
+ul.social li {
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+}
+
+ul.social li a  {
+    font-size: 24px;
+    color: #161616;
+    background: #4cbdda;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 41px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+ul.social li a:hover {
+    color: #fff;
+}
+
+.copyright {
+    padding: 23px 0px;
+    margin-top: 20px;
+    border-top: #ddd solid 1px;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
 }
