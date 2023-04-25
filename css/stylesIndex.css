@@ -81,7 +81,59 @@ main section {
     color: #fff;
 }
 
-aside {
+
+
+
+.titlepage .art_ban {
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.titlepage {
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 400px;
+    text-align: right;
+    color: #fff;
+}
+
+.titlepage a {
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.titlepage a:hover {
+    background: coral;
+    box-shadow: 0 0 10px coral, 0 0 40px coral, 0 0 80px coral;
+}
+
+.margi_bot {
+    margin-bottom: 20px;
+}
+
+.photoA {
+    position: relative;
+}
+
+.photoA figure {
+    margin: 0;
+}
+
+.photoA figure img {
+    width: 200px;
+    height: 250px;
+}
+
+/* aside {
     float: right;
     padding: 10px;
     margin-right: 10px;
@@ -97,7 +149,7 @@ aside {
     color: #fff;
     margin-top: 50px;
     font-weight: 100;
-}
+} */
 
 /* @media (max-width: 700px) {
     header {
