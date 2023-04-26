@@ -78,6 +78,8 @@ nav a:hover {
     color: #ccc;
 }
 
+
+
 body {
     align-items: center;
     justify-content: center;
@@ -197,3 +199,32 @@ a {
     color: #32943b;
     border-color: #32943b;
 }
+
+
+
+/* aside {
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 30%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.aside .h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 100;
+} */
+
+/* @media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+} */

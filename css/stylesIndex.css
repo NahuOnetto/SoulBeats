@@ -155,37 +155,6 @@ main section {
 
 
 
-/* aside {
-    float: right;
-    padding: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    width: 30%;
-    height: 100px;
-    background-color: darkgray;
-}
-
-.aside .h2 {
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    margin-top: 50px;
-    font-weight: 100;
-} */
-
-/* @media (max-width: 700px) {
-    header {
-        flex-direction: column;
-    }
-    nav {
-        padding: 10px 0px;
-    }
-} */
-
-
-
-
-
 .evenTi .eve {
     font-size: 30px;
     margin-bottom: -10px;
@@ -257,7 +226,7 @@ main section {
 }
 
 .cardEvent:hover .intro {
-    height: 200px;
+    height: 220px;
     bottom: -980px;background: rgb(5, 3, 3);
 }
 
@@ -314,10 +283,14 @@ ul.loca li a {
     margin-top: 4px;
 }
 
-ul.social li {
-    list-style: none;
-    display: inline-block;
+.social {
+    display: flex;
     justify-content: center;
+    list-style: none;
+}
+
+ul.social li {
+    margin: 0 10px;
 }
 
 ul.social li a  {
