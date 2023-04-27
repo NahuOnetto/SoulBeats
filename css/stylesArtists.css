@@ -59,6 +59,8 @@ header a:hover {
     color: #ccc;
 }
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -130,6 +132,94 @@ body {
 
 
 
+.footer {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../img/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .uss {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Quantico', sans-serif;
+    margin-top: 40px;
+}
+
+.footer .showi {
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500px;
+}
+
+.border_top {
+    border-top: #ddd solid 1px;
+} 
+
+ul.loca {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul.loca li {
+    color: #fcfbfb;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-family: 'Quantico', sans-serif;
+    list-style: none;
+}
+
+ul.loca li a {
+    padding-right: 16px;
+    color: #fcfbfb;
+    margin-top: 4px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul.social li {
+    margin: 0 10px;
+}
+
+ul.social li a  {
+    font-size: 24px;
+    color: #161616;
+    background: #4cbdda;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 41px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+ul.social li a:hover {
+    color: #fff;
+}
+
+.copyright {
+    padding: 23px 0px;
+    margin-top: 20px;
+    border-top: #ddd solid 1px;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .logo img {
         height: 60%;
@@ -180,5 +270,15 @@ body {
         align-items: center;
         justify-content: center;
         margin-top: 10vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #check {
+        display: none;
+    }
+
+    header label {
+        display: none;
     }
 }

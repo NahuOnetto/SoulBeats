@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quantico&display=swap');
+
 body {
     height: 100%;
     background-image: url("../img/Public_Concert.jpeg");
@@ -122,6 +126,94 @@ header a:hover {
 
 
 
+.footer {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .uss {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Quantico', sans-serif;
+    margin-top: 40px;
+}
+
+.footer .showi {
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500px;
+}
+
+.border_top {
+    border-top: #ddd solid 1px;
+} 
+
+ul.loca {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul.loca li {
+    color: #fcfbfb;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-family: 'Quantico', sans-serif;
+    list-style: none;
+}
+
+ul.loca li a {
+    padding-right: 16px;
+    color: #fcfbfb;
+    margin-top: 4px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul.social li {
+    margin: 0 10px;
+}
+
+ul.social li a  {
+    font-size: 24px;
+    color: black;
+    background: #4cbdda;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 41px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+ul.social li a:hover {
+    color: white;
+}
+
+.copyright {
+    padding: 23px 0px;
+    margin-top: 20px;
+    border-top: #ddd solid 1px;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .logo img {
         height: 60%;
@@ -178,5 +270,66 @@ header a:hover {
 
     .form-register p {
         font-size: 18px;
+    }
+    
+    .logo img {
+        height: 60%;
+        margin-left: 1rem;
+    }
+    
+    header label i {
+        line-height: 80px;
+        color: #fff;
+        font-size: 35px;
+        margin-left: 120px;
+        cursor: pointer;
+        display: none;
+    }
+
+    header .menue {
+        height: 0;
+        width: -250px;
+        top: 85px;
+        position: absolute;
+        background-color: rgb(33, 84, 117);
+        text-align: center;
+        cursor: pointer;
+        display: none;
+        transition: all .4s;
+        z-index: 1;
+    }
+
+    header .menue li {
+        margin: 35px 0;
+        transition: all .4s;
+    }
+
+    #check:checked ~ nav .menue {
+        height: 60vh;
+        right: 0px;
+        width: 300px;
+        display: block;
+    }
+
+    .mbars {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #check {
+        display: none;
+    }
+
+    header label {
+        display: none;
     }
 }
