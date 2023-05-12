@@ -1,0 +1,793 @@
+@import "https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quantico&display=swap";
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 10px;
+  text-shadow: 0px 5px 7px #4cbdda;
+  transition: color 0.5;
+}
+header li {
+  margin: 0 10px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+header a:hover {
+  color: #ccc;
+}
+.norHe {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../img/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.heReg {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo img {
+  height: 80%;
+  margin-left: 1rem;
+}
+
+nav {
+  margin-right: 5rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav ul li {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 10px;
+  text-shadow: 0px 5px 7px #4cbdda;
+  transition: color 0.3 ease;
+}
+nav::beforheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-image: url("../img/Background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ccc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.boBla {
+  background-color: #000;
+}
+.bodReg {
+  height: 100%;
+  background-image: url("../img/Public_Concert.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.boNew {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../img/Neon\ Brick\ Wall.jpg")
+}
+
+.title {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 50px;
+  font-weight: 100;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container a {
+  width: 200px;
+  height: 250px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px #111;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.25s;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #6b6969;
+  font-family: "Quantico", sans-serif;
+}
+.container a:hover {
+  box-shadow: 0 16px 20px #4cbdda;
+}
+.container a img {
+  width: 200px;
+  height: 120px;
+  border-bottom: solid 3px;
+  border-color: #fff;
+}
+.container a h4 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Audiowide", cursive;
+  color: #fff;
+}
+.container a p {
+  padding: 0 1rem;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Quantico", sans-serif;
+  color: #fff;
+}
+
+.norFo {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.foReg {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.footer .uss {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500px;
+  font-family: "Quantico", sans-serif;
+  margin-top: 40px;
+}
+.footer .showi {
+  color: #fff;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 500px;
+}
+
+.border_top {
+  border-top: #ddd solid 1px;
+}
+
+ul.loca {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ul.loca li {
+  color: #fcfbfb;
+  padding: 0px 30px;
+  font-size: 18px;
+  font-family: "Quantico", sans-serif;
+  list-style: none;
+}
+ul.loca li a {
+  padding-right: 16px;
+  color: #fcfbfb;
+  margin-top: 4px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul.social li {
+  margin: 0 10px;
+}
+ul.social li a {
+  font-size: 24px;
+  color: black;
+  background: #4cbdda;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 41px;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+}
+ul.social li a:hover {
+  color: #fff;
+  color: #fff;
+}
+
+.copyright {
+  padding: 23px 0px;
+  margin-top: 20px;
+  border-top: #ddd solid 1px;
+}
+.copyright p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+main {
+  padding: 1px 0px;
+  width: 100%;
+  height: auto;
+}
+main h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  margin-top: 0px;
+  font-weight: 100;
+}
+
+.event_list {
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contEve {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.img_card {
+  width: 450px;
+  display: block;
+  object-fit: cover;
+  border-right: solid 3px;
+  border-color: #111;
+}
+
+.event_card {
+  display: flex;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: solid 3px;
+  border-color: #fff;
+  box-shadow: 0 16px 20px #4cbdda;
+  transform: translateY(-15px);
+}
+
+.card_secc {
+  padding: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.card_title {
+  font-size: 20px;
+  font-family: "Audiowide", cursive;
+}
+
+.card_info {
+  padding: 15px;
+  max-width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card_info p {
+  width: 200px;
+  max-height: auto;
+  display: flex;
+  letter-spacing: 1.5px;
+  color: black;
+  font-family: "Quantico", sans-serif;
+}
+
+.textP {
+  font-size: 25px;
+  display: flex;
+  letter-spacing: 1.5px;
+  font-family: "Quantico", sans-serif;
+}
+
+.card_days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.card_size-btn {
+  padding: 20px;
+  width: 5px;
+  height: 5px;
+  border-radius: 25px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+  border-color: 0.3s;
+}
+.card_size-btn:hover {
+  color: #00b4d1;
+  border-color: #00b4d1;
+}
+.card_size-btn:focus {
+  color: #00b4d1;
+  border-color: #00b4d1;
+}
+
+.card_buy_f {
+  padding-top: 15px;
+}
+
+.card_buy {
+  padding: 7px 15px;
+  border: 3px solid #000;
+  color: black;
+  font-weight: bold;
+  display: block;
+  width: max-content;
+  transition: color 0.3s;
+  border-color: 0.3s;
+}
+.card_buy:hover {
+  color: #32943b;
+  border-color: #32943b;
+}
+
+/* .aside {
+  background-color: #444;
+  color: #fff;
+  flex: 0 0 300px;
+  padding: 20px 10px;
+  margin-left: auto;
+}
+
+.aside_title {
+  text-align: center;
+  font-size: 24px;
+  margin-top: -15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Audiowide";
+  text-decoration: none;
+}
+
+.aside_content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.aside_item img {
+  width: 370px;
+  height: 250px;
+  object-fit: cover;
+}
+.aside_item p {
+  margin-top: 10px;
+  font-family: "Quantico", sans-serif;
+} */
+
+.first h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Quantico", sans-serif;
+  color: #fff;
+}
+.first p {
+  padding: 0 3rem;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Quantico", sans-serif;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.grup2 {
+  display: flex;
+  margin: 20px;
+}
+.grup2 .box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  gap: 25px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+
+.titlepage {
+  font-size: 20px;
+  width: 400px;
+  line-height: 35px;
+  font-weight: 400px;
+  font-family: "Quantico", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.titlepage .art_ban {
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+}
+.titlepage a {
+  width: 25%;
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.titlepage a:hover {
+  background: coral;
+  box-shadow: 0 0 10px coral, 0 0 40px coral, 0 0 80px coral;
+}
+
+.margi_bot {
+  margin-bottom: 20px;
+}
+
+.photoA {
+  position: relative;
+}
+.photoA figure {
+  margin: 0;
+}
+.photoA figure img {
+  width: 200px;
+  height: 250px;
+}
+
+.evenTi .eve {
+  font-size: 30px;
+  margin-bottom: -10px;
+  color: #fff;
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+}
+.evenTi p {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 35px;
+  font-weight: 400px;
+  font-family: "Quantico", sans-serif;
+  text-align: center;
+  color: #fff;
+  border-bottom: #ddd solid 1px;
+}
+
+.contEv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contEv .cardEvent {
+  position: relative;
+  flex: 1 1 300px;
+  height: 300px;
+  margin: 35px;
+  box-shadow: 5px 5px 15px white;
+  overflow: hidden;
+}
+.contEv .cardEvent img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.intro {
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  right: 0;
+  height: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background: rgba(27, 27, 27, 0.8);
+  color: #fff;
+  text-align: center;
+  transition: height 0.5s, background-color 0.5s, bottom 0.5s;
+  overflow: hidden;
+}
+
+.cardEvent h4 {
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Quantico", sans-serif;
+}
+.cardEvent p {
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Quantico", sans-serif;
+}
+.cardEvent:hover {
+  cursor: pointer;
+}
+.cardEvent:hover .intro {
+  height: 160px;
+  background: rgba(27, 27, 27, 0.8);
+  bottom: 0;
+}
+.cardEvent:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+
+article img {
+  width: 100%;
+  max-width: 700px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #fff;
+}
+article section {
+  margin: 20px;
+}
+article section h2 {
+  color: #fff;
+  font-family: "Audiowide", cursive;
+  text-decoration: underline;
+}
+article p {
+  text-align: justify;
+  color: #fff;
+  font-family: "Quantico", sans-serif;
+}
+article a {
+  text-decoration: none;
+  margin-left: 600px;
+  color: #6200ff;
+  text-shadow: 5px 5px 5px #c01ce9;
+  font-family: "Audiowide", cursive;
+}
+
+.form-register {
+  width: 400px;
+  background: #192424;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  box-shadow: 7px 13px 37px white;
+}
+.form-register h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.form-register p {
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 15px;
+}
+.form-register a {
+  color: #fff;
+  text-decoration: none;
+}
+.form-register .button-neon {
+  width: 90%;
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.control {
+  width: 90%;
+  background: #5e5d5d;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #FFFFFF;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.button-neon:hover {
+  background: coral;
+  box-shadow: 0 0 10px coral, 0 0 40px coral, 0 0 80px coral;
+}
+
+@media screen and (max-width: 767px) {
+  .logo img {
+    height: 60%;
+    margin-left: 1rem;
+  }
+  header label i {
+    line-height: 80px;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 120px;
+    cursor: pointer;
+    display: none;
+  }
+  header .menue {
+    height: 0;
+    width: -250px;
+    top: 85px;
+    position: absolute;
+    background-color: rgb(33, 84, 117);
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    transition: all 0.4s;
+    z-index: 1;
+  }
+  header .menue li {
+    margin: 35px 0;
+    transition: all 0.4s;
+  }
+  #check {
+    display: none;
+  }
+  #check:checked ~ nav .menue {
+    height: 60vh;
+    right: 0px;
+    width: 300px;
+    display: block;
+  }
+  .mbars {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  main {
+    margin-bottom: 0;
+  }
+  .form-register {
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .form-register p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #check {
+    display: none;
+  }
+  header label {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .event {
+    margin: 50px auto 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .event_card {
+    width: 100%;
+  }
+  .img_card {
+    height: 200px;
+    object-fit: cover;
+    border-right: none;
+    border-bottom: solid 3px;
+    border-color: #111;
+  }
+  .card_info {
+    padding: 15px;
+    max-width: none;
+    margin-top: 15px;
+  }
+  .card_size-btn {
+    padding: 10px;
+    width: 5px;
+    height: 5px;
+    font-size: 10px;
+  }
+  article img {
+    height: auto;
+    width: 100%;
+    max-width: none;
+  }
+  article a {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .event_list {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .aside {
+    flex: 0 0 300px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
