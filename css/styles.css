@@ -448,6 +448,12 @@ a {
   padding-bottom: 40px;
 }
 
+#artist.artists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .grup2 {
   display: flex;
   margin: 20px;
@@ -782,7 +788,6 @@ article a {
   }
   .event_list {
     flex: 1;
-    margin-right: 20px;
     margin-bottom: 20px;
   }
   .aside {
